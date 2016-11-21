@@ -251,20 +251,6 @@ void EmuHLEIntercept(Xbe::LibraryVersion *pLibraryVersion, Xbe::Header *pXbeHead
 				//		BuildVersion = 3911;
 				}
 
-                // Several 3911 titles has different DSound builds.
-                if(strcmp(szLibraryName, "DSOUND") == 0)
-                {
-                    if(BuildVersion < 4034)
-                    {
-                        BuildVersion = 3936;
-                    }
-
-					// Redirect other highly similar DSOUND library versions
-					if(BuildVersion == 4361 || BuildVersion == 4400 || BuildVersion == 4432 || 
-						BuildVersion == 4531 )
-						BuildVersion = 4627;
-                }
-
 				// Some 3911 titles have different D3D8 builds
 				if(strcmp(szLibraryName, "D3D8") == 0)
 				{

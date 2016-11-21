@@ -224,62 +224,6 @@ HLEData HLEDataBase[] =
         D3D8LTCG_1_0_5849,
         D3D8LTCG_1_0_5849_SIZE
     },
-    // DSound Version 1.0.3936
-    {
-        "DSOUND",
-        1, 0, 3936,
-        DSound_1_0_3936,
-        DSound_1_0_3936_SIZE
-    },
-	// DSound Version 1.0.4134
-    {
-        "DSOUND",
-        1, 0, 4134,
-        DSound_1_0_4134,
-        DSound_1_0_4134_SIZE
-    },
-    // DSound Version 1.0.4361
-    {
-        "DSOUND",
-        1, 0, 4361,
-        DSound_1_0_4361,
-        DSound_1_0_4361_SIZE
-    },
-    // DSound Version 1.0.4432
-    {
-        "DSOUND",
-        1, 0, 4432,
-        DSound_1_0_4432,
-        DSound_1_0_4432_SIZE
-    },
-    // DSound Version 1.0.4627
-    {
-        "DSOUND",
-        1, 0, 4627,
-        DSound_1_0_4627,
-        DSound_1_0_4627_SIZE
-    },
-    // DSound Version 1.0.5233
-    {
-        "DSOUND",
-        1, 0, 5233,
-        DSound_1_0_5233,
-        DSound_1_0_5233_SIZE
-    },
-    // DSound Version 1.0.5558
-    {
-        "DSOUND",
-        1, 0, 5558,
-        DSound_1_0_5558,
-        DSound_1_0_5558_SIZE
-    },
-    // DSound Version 1.0.5849
-    {
-        "DSOUND",
-        1, 0, 5849,
-        DSound_1_0_5849,
-        DSound_1_0_5849_SIZE
-    },
 	// XG Version 1.0.3911
     {
         "XGRAPHC",
